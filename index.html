@@ -57,9 +57,9 @@
 <a class="nav" data-id="C07" data-score="3" href="#"><s></s>C07<b></b></a> 
 <a class="nav event" data-id="2" data-score="" href="#"><s></s>EVENT<b></b></a>
 <a class="nav" data-id="C08" data-score="1" href="#"><s></s>C08<b></b></a>
-<a class="nav cave" data-id="01" data-score="7" href="#"><s></s>UNKNOWN<b></b></a> 
-<a class="nav cave" data-id="02" data-score="7" href="#"><s></s>UNKNOWN<b></b></a> 
-<a class="nav cave" data-id="03" data-score="7" href="#"><s></s>UNKNOWN<b></b></a> 
+<a class="nav cave" data-id="8" data-score="" href="#"><s></s>EVENT<b></b></a> 
+<a class="nav cave" data-id="9" data-score="" href="#"><s></s>EVENT<b></b></a> 
+<a class="nav cave" data-id="10" data-score="" href="#"><s></s>EVENT<b></b></a> 
 <a class="nav event" data-id="3" data-score="" href="#"><s></s>EVENT<b></b></a>
 
 <!-- NEW LINE -->
@@ -71,10 +71,10 @@
 <a class="nav" data-id="D04" data-score="1" href="#"><s></s>D04<b></b></a> 
 <a class="nav" data-id="D05" data-score="1" href="#"><s></s>D05<b></b></a>
 <a class="nav" data-id="D06" data-score="1" href="#"><s></s>D06<b></b></a> 
-<a class="nav cave" data-id="04" data-score="7" href="#"><s></s>UNKNOWN<b></b></a> 
-<a class="nav cave" data-id="05" data-score="7" href="#"><s></s>UNKNOWN<b></b></a> 
-<a class="nav cave" data-id="06" data-score="7" href="#"><s></s>UNKNOWN<b></b></a> 
-<a class="nav cave" data-id="07" data-score="7" href="#"><s></s>UNKNOWN<b></b></a> 
+<a class="nav cave" data-id="11" data-score="" href="#"><s></s>EVENT<b></b></a> 
+<a class="nav cave" data-id="12" data-score="" href="#"><s></s>EVENT<b></b></a> 
+<a class="nav cave" data-id="13" data-score="" href="#"><s></s>EVENT<b></b></a> 
+<a class="nav cave" data-id="14" data-score="" href="#"><s></s>EVENT<b></b></a> 
 <a class="nav" data-id="D07" data-score="3" href="#"><s></s>D07<b></b></a>
 
 <!-- NEW LINE -->
@@ -87,9 +87,9 @@
 <a class="nav" data-id="E02" data-score="1" href="#"><s></s>E02<b></b></a> 
 <a class="nav" data-id="E03" data-score="1" href="#"><s></s>E03<b></b></a> 
 <a class="nav event" data-id="5" data-score="" href="#"><s></s>EVENT<b></b></a>
-<a class="nav cave" data-id="08" data-score="7" href="#"><s></s>UNKNOWN<b></b></a> 
-<a class="nav cave" data-id="09" data-score="7" href="#"><s></s>UNKNOWN<b></b></a> 
-<a class="nav cave" data-id="10" data-score="7" href="#"><s></s>UNKNOWN<b></b></a> 
+<a class="nav cave" data-id="15" data-score="" href="#"><s></s>EVENT<b></b></a> 
+<a class="nav cave" data-id="16" data-score="" href="#"><s></s>EVENT<b></b></a> 
+<a class="nav cave" data-id="17" data-score="" href="#"><s></s>EVENT<b></b></a> 
 <a class="nav" data-id="E04" data-score="1" href="#"><s></s>E04<b></b></a>
 
 <!-- NEW LINE -->
@@ -175,23 +175,85 @@ var eventData = [
 		reward: "神秘的洞穴被開啟了，趕快來探索這塊神秘的區域吧！",
 		extraScore: 10
 	},
+	{
+		story: "",
+		mission: "",
+		reward: "",
+		extraScore: 0
+	},
+	{
+		story: "",
+		mission: "",
+		reward: "",
+		extraScore: 0
+	},
+	{
+		story: "",
+		mission: "",
+		reward: "",
+		extraScore: 0
+	},
+	{
+		story: "",
+		mission: "",
+		reward: "",
+		extraScore: 0
+	},
+	{
+		story: "",
+		mission: "",
+		reward: "",
+		extraScore: 0
+	},
+	{
+		story: "",
+		mission: "",
+		reward: "",
+		extraScore: 0
+	},
+	{
+		story: "",
+		mission: "",
+		reward: "",
+		extraScore: 0
+	},
+	{
+		story: "",
+		mission: "",
+		reward: "",
+		extraScore: 0
+	},
+	{
+		story: "",
+		mission: "",
+		reward: "",
+		extraScore: 0
+	},
+	{
+		story: "",
+		mission: "",
+		reward: "",
+		extraScore: 0
+	},
 ];
 
-$("body").on('click', 'a', function(e){
 
-	var id;
+$(function(){
 
-	e.preventDefault();
+	$("body").on('click', 'a.event', function(e){
 
-	if( $(this).hasClass('event') ){
-		id = parseInt($(this).data('id'), 10);
+		var id = parseInt($(this).data('id'), 10);
+
+		e.preventDefault();
+
 		console.log(id);
 		console.log(eventData[id]);
+	});
+
+	if( !!window.location.hash.match(/cave/) ){
+		$('.cave').removeClass('cave').addClass('event');
 	}
 });
-
-
-
 
 </script>
 </body> 
