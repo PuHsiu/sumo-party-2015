@@ -1,7 +1,7 @@
 body {
 	background-image: url("../img/mozilla-firefox.png");
 	background-repeat: no-repeat; 
-	background-position: 40% 100%; 
+	background-position: center center; 
 }
 
 .wrap {
@@ -231,6 +231,18 @@ body {
 
 .nav.cave b {
 	border-top: 30px solid white;
+}
+
+.nav.cave.event {
+	background: darkorange;
+}
+
+.nav.cave.event s {
+	border-bottom: 30px solid darkorange;
+}
+
+.nav.cave.event b {
+	border-top: 30px solid darkorange;
 }
 
 .nav.event {
