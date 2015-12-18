@@ -1,162 +1,165 @@
-body{
+body {
 	background-image: url("../img/mozilla-firefox.png");
 	background-repeat: no-repeat; 
 	background-position: 40% 100%; 
 }
 
-.wrap{
-	margin:10px;
-	width:1300px;display:
+.wrap {
+	margin: 10px;
+	width: 1280px;
 } 
 
-.nav{
-	width:100px;
-	height:58px;
-	background:#339933;
-	display:inline-block;
-	position:relative;
-	line-height:58px;
-	text-align:center;
-	color:#ffffff;
-	font-size:14px;
-	text-decoration:none;
-	float:left;
-	margin-top:31px;
-	margin-right:1px;
+.nav {
+	width: 100px;
+	height: 58px;
+	background: #339933;
+	display: inline-block;
+	position: relative;
+	line-height: 58px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	text-decoration: none;
+	float: left;
+	margin-top: 31px;
+	margin-right: 1px;
 } 
 
-.nav s{
-	width:0;
-	height:0;
-	display:block;
-	overflow:hidden;
-	position:absolute;
-	border-left:50px dotted transparent;
-	border-right:50px dotted transparent;
-	border-bottom:30px solid #339933;
-	left:0px;top:-30px;
+.nav s {
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	border-left: 50px dotted transparent;
+	border-right: 50px dotted transparent;
+	border-bottom: 30px solid #339933;
+	left: 0px;
+	top: -30px;
 } 
 
-.nav b{
-	width:0;
-	height:0;
-	display:block;
-	overflow:hidden;
-	position:absolute;
-	border-left:50px dotted transparent;
-	border-right:50px dotted transparent;
-	border-top:30px solid #339933;
-	bottom:-30px;
-	left:0px;
+.nav b {
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	border-left: 50px dotted transparent;
+	border-right: 50px dotted transparent;
+	border-top: 30px solid #339933;
+	bottom: -30px;
+	left: 0px;
 } 
 
-.x0{
-	margin-left:100px;
+.x0 {
+	margin-left: 100px;
 } 
 
-.x1{
-	margin-left:50px;
+.x1 {
+	margin-left: 50px;
 } 
 
-.nav:hover{
-	background:#8CBF26;
-	color:#333333;
+.nav:hover {
+	background: #8CBF26;
+	color: #333333;
 } 
 
-.nav:hover s{
-	border-bottom-color:#8CBF26;
+.nav:hover s {
+	border-bottom-color: #8CBF26;
 } 
 
-.nav:hover b{
-	border-top-color:#8CBF26;
+.nav:hover b {
+	border-top-color: #8CBF26;
 } 
 
-.vi_hi{
-	visibility:hidden;
+.vi_hi {
+	visibility: hidden;
 }
 
 //鎖定變色()
-.nav_loc{
-	width:100px;
-	height:58px;
-	background:#339933;//需要變色
-	display:inline-block;
-	position:relative;
-	line-height:58px;
-	text-align:center;
-	color:#ffffff;
-	font-size:14px;
-	text-decoration:none;
-	float:left;
-	margin-top:31px;
-	margin-right:1px;
+.nav_loc {
+	width: 100px;
+	height: 58px;
+	background: #339933;//需要變色
+	display: inline-block;
+	position: relative;
+	line-height: 58px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	text-decoration: none;
+	float: left;
+	margin-top: 31px;
+	margin-right: 1px;
 } 
 
-.nav_loc s_locc{
-	width:0;
-	height:0;
-	display:block;
-	overflow:hidden;
-	position:absolute;
-	border-left:50px dotted transparent;
-	border-right:50px dotted transparent;
-	border-bottom:30px solid #339933;//需要變色
-	left:0px;top:-30px;
+.nav_loc s_locc {
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	border-left: 50px dotted transparent;
+	border-right: 50px dotted transparent;
+	border-bottom: 30px solid #339933;//需要變色
+	left: 0px;
+	top: -30px;
 } 
 
-.nav_loc b_loc{
-	width:0;
-	height:0;
-	display:block;
-	overflow:hidden;
-	position:absolute;
-	border-left:50px dotted transparent;
-	border-right:50px dotted transparent;
-	border-top:30px solid #339933;//需要變色
-	bottom:-30px;
-	left:0px;
+.nav_loc b_loc {
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	border-left: 50px dotted transparent;
+	border-right: 50px dotted transparent;
+	border-top: 30px solid #339933;//需要變色
+	bottom: -30px;
+	left: 0px;
 }
 
 //翻譯成功系列(隊伍1)
 .nav_succ {
-	width:100px;
-	height:58px;
-	background:#339933;//需要變色
-	display:inline-block;
-	position:relative;
-	line-height:58px;
-	text-align:center;
-	color:#ffffff;
-	font-size:14px;
-	text-decoration:none;
-	float:left;
-	margin-top:31px;
-	margin-right:1px;
+	width: 100px;
+	height: 58px;
+	background: #339933;//需要變色
+	display: inline-block;
+	position: relative;
+	line-height: 58px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	text-decoration: none;
+	float: left;
+	margin-top: 31px;
+	margin-right: 1px;
 } 
 
-.nav_succ s_succ{
-	width:0;
-	height:0;
-	display:block;
-	overflow:hidden;
-	position:absolute;
-	border-left:50px dotted transparent;
-	border-right:50px dotted transparent;
-	border-bottom:30px solid #339933;//需要變色
-	left:0px;top:-30px;
+.nav_succ s_succ {
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	border-left: 50px dotted transparent;
+	border-right: 50px dotted transparent;
+	border-bottom: 30px solid #339933;//需要變色
+	left: 0px;
+	top: -30px;
 } 
 
-.nav_succ b_succ{
-	width:0;
-	height:0;
-	display:block;
-	overflow:hidden;
-	position:absolute;
-	border-left:50px dotted transparent;
-	border-right:50px dotted transparent;
-	border-top:30px solid #339933;//需要變色
-	bottom:-30px;
-	left:0px;
+.nav_succ b_succ {
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	border-left: 50px dotted transparent;
+	border-right: 50px dotted transparent;
+	border-top: 30px solid #339933;//需要變色
+	bottom: -30px;
+	left: 0px;
 } 
 
 .nav.complete {
@@ -215,4 +218,28 @@ body{
 
 .nav.teamR b {
 	border-top: 30px solid red;
+}
+
+.nav.cave {
+	background: white;
+}
+
+.nav.cave s {
+	border-bottom: 30px solid white;
+}
+
+.nav.cave b {
+	border-top: 30px solid white;
+}
+
+.nav.event {
+	background: gray;
+}
+
+.nav.event s {
+	border-bottom: 30px solid gray;
+}
+
+.nav.event b {
+	border-top: 30px solid gray;
 }
