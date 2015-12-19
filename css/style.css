@@ -168,56 +168,59 @@ body {
 
 @keyframes flash {
 	0% {
-		opacity: 0;
+		-webkit-filter: brightness(1);
+		filter: brightness(1);
 	}
 	50% {
-		opacity: 1;
+		-webkit-filter: brightness(0.5);
+		filter:	brightness(0.5);
 	}
 	100% {
-		opacity: 0;
+		-webkit-filter: brightness(1);
+		filter: brightness(1);
 	}
 }
 
 .nav.open {
 	animation-name: flash;
-	animation-duration: 1s;
+	animation-duration: 5s;
 	animation-iteration-count: infinite;
 }
 
 .nav.teamY {
-	background: yellow;
+	background: yellow !important; 
 }
 
 .nav.teamY s {
-	border-bottom: 30px solid yellow;
+	border-bottom: 30px solid yellow !important;
 }
 
 .nav.teamY b {
-	border-top: 30px solid yellow;
+	border-top: 30px solid yellow !important;
 }
 
 .nav.teamB {
-	background: blue;
+	background: blue !important;
 }
 
 .nav.teamB s {
-	border-bottom: 30px solid blue;
+	border-bottom: 30px solid blue !important;
 }
 
 .nav.teamB b { 
-	border-top: 30px solid blue;
+	border-top: 30px solid blue !important;
 }
 
 .nav.teamR {
-	background: red;
+	background: red !important;
 }
 
 .nav.teamR s {
-	border-bottom: 30px solid red;
+	border-bottom: 30px solid red !important;
 }
 
 .nav.teamR b {
-	border-top: 30px solid red;
+	border-top: 30px solid red !important;
 }
 
 .nav.cave {
